@@ -29,6 +29,9 @@
                 'start': "rgb(18, 18, 18)",
                 'end': "rgba(18, 18, 18, 0)",
                 },
+                boxShadow: {
+                  'custom-shadow': 'rgba(99, 99, 99, 0.2) 0px 2px 8px 0px',
+               },
               colors: {
                 clifford: '#da373d',
                 'primary-color': '#F85559',
@@ -771,11 +774,111 @@
       </section>
       <!-- Deal of the day section  -->
 
-      <section></section>
+      <!-- Fresh fruits and juice section  -->
+       <section>
+        <div class="text-center space-y-6">
+          <h3 class="font-extrabold text-black text-5xl">Fresh Fruits, Freshly Presented</h3>
+          <p class="text-text-color font-base max-w-[720px] mx-auto">Explore our selection of vibrant, farm-fresh fruits bursting with natural flavors and nutrients. From succulent oranges to crisp apples, indulge in the essence of nature's juiciest offerings.</p>
+        </div>
+
+        <!-- Fresh juice layout -->
+        <div class="grid md:grid-cols-1 lg:grid-cols-2 justify-center items-center mt-24 gap-8">
+          <div class="flex-1  grid grid-cols-1 md:grid-cols-2 md:grid-rows-4 items-center md:h-[640px] gap-4 bg-slate-50">
+
+            <div class="h-full shadow-custom-shadow p-2 rounded-md overflow-hidden">
+              <img class="w-full h-full rounded-md ease-in duration-500 hover:scale-125" src="./images/grid11.jpg" alt="">
+            </div>
+            <div class= "row-span-2 h-full shadow-custom-shadow p-2 rounded-md overflow-hidden"> 
+              <img class="w-full h-full rounded-md ease-in duration-500 hover:scale-125" src="./images/grid-big1.jpg" alt="">
+            </div>
+            <div class=" row-span-2 h-full shadow-custom-shadow p-2 rounded-md overflow-hidden">
+              <img class="w-full h-full rounded-md ease-in duration-500 hover:scale-125" src="./images/grid-big.jpg" alt="">
+            </div>
+            <div class=" h-full shadow-custom-shadow p-2 rounded-md overflow-hidden">
+              <img class="w-full h-full rounded-md ease-in duration-500 hover:scale-125" src="./images/grid5.jpg" alt="">
+            </div>
+            <div class="h-full shadow-custom-shadow p-2 rounded-md overflow-hidden">
+              <img class="w-full h-full rounded-md ease-in duration-500 hover:scale-125" src="./images/grid3.png" alt="">
+            </div>
+            <div class=" h-full shadow-custom-shadow p-2 rounded-md overflow-hidden">
+              <img class="w-full h-full rounded-md ease-in duration-500 hover:scale-125" src="./images/grid-last.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="flex-1 space-y-8 lg:pr-16 text-center lg:text-left">
+            <div class="space-y-4">
+              <h3 class="text-3xl lg:text-4xl  text-black font-extrabold leading-relaxed lg:leading-loose">Top-tier Fruits Unparalleled in Freshness and Flavor</h3>
+              <p class="text-text-color text-base font-medium">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+            </div>
+            <div class="space-y-3">
+              <h4 class="text-black text-3xl font-bold">Unique Taste</h4>
+              <p class="text-text-color text-base font-medium">Taste the difference with our premium selection of fruits, celebrated for their exceptional flavors and guaranteed to provide a memorable culinary adventure.</p>
+            </div>
+            <div class="space-y-3">
+              <h4 class="text-black text-3xl font-bold">Premium Quality</h4>
+              <p class="text-text-color text-base font-medium">In the realm of gastronomy, premium food represents the epitome of taste and refinement, crafted with the finest ingredients and artisanal techniques.</p>
+            </div>
+          </div>
+        </div>
+
+       </section>
+      <!-- Fresh fruits and juice section  -->
+
+      <!-- Our super client section  -->
+       <section class="h-auto lg:h-[600px] bg-gradient-to-r from-[#FF8938] to-[#FF0000] flex items-center rounded-lg py-7 lg:py-0">
+        <div class="flex flex-col gap-9 lg:flex-row items-center justify-between max-w-[90%] mx-auto space-y-10 lg:space-y-0">
+          <div class="flex-1">
+            <h3 class="text-4xl  text-white font-extrabold leading-relaxed">Meet Our Super <br> Clients</h3>
+            <p class="text-white text-base font-medium">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <button class="btn bg-white text-primary-color border-primary-color px-5 mt-7">Show All</button>
+          </div>
+
+          <div class="flex-1 relative">
+            <!-- Review one  -->
+            <div class="mb-12 flex justify-end opacity-30">
+              <div class=" bg-white max-w-[433px] rounded-lg p-10 relative">
+                <img class="w-16 absolute -top-4 -left-4 border-4 border-white rounded-full" src="./images/team2.png" alt="">
+                <p class="text-text-color text-base font-medium mb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h3 class="text-black text-2xl font-semibold">Ilham Yuda</h3>
+                <p class="text-text-color text-base font-medium">Businessman</p>
+                
+              </div>
+            </div>
+
+            <!-- Review two -->
+            <div class="absolute z-50 top-1/3">
+              <div class=" bg-white max-w-[433px] rounded-lg p-10 relative">
+                <img class="w-16 absolute -top-4 -left-4 border-4 border-white rounded-full" src="./images/team2.png" alt="">
+                <p class="text-text-color text-base font-medium mb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h3 class="text-black text-2xl font-semibold">Ilham Yuda</h3>
+                <p class="text-text-color text-base font-medium">Businessman</p>
+                <img class="absolute right-2" src="./images/circles.png" alt="">
+              </div>
+            </div>
+
+            <!-- Review Three  -->
+            <div class="flex justify-end opacity-30">
+              <div class=" bg-white max-w-[433px] rounded-lg p-10 relative">
+                <img class="w-16 absolute -top-4 -left-4 border-4 border-white rounded-full" src="./images/team2.png" alt="">
+                <p class="text-text-color text-base font-medium mb-4">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h3 class="text-black text-2xl font-semibold">Ilham Yuda</h3>
+                <p class="text-text-color text-base font-medium">Businessman</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+       </section>
+      <!-- Our super client section  -->
+      <section>
+
+      </section>
+
+
     </main>
     <!-- Main content -->
 
-    
     <!-- Footer section start-->
     <footer>
       
